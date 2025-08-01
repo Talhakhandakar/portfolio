@@ -4,7 +4,7 @@ interface IHeroProps {};
 
 export const Hero: FC<IHeroProps> = (props) => {
     return (
-        <div className="flex flex-col-reverse gap-8 md:flex-row py-24 min-h-[calc(100vh-64px)] items-center px-6 sm:px-4 container max-w-screen-xl mx-auto">
+        <div className="flex flex-col-reverse gap-8 md:flex-row py-24 items-center px-6 sm:px-4 container max-w-screen-xl mx-auto">
             <div className="md:w-[60%] w-full space-y-2">
                 <p className="text-gray-500">Hey, I'm Shreash 👋</p>
                 <p className="font-black text-4xl lg:text-6xl uppercase"><span className="text-emerald-600">Front</span>End</p>

@@ -6,7 +6,7 @@ interface INavBarProps {};
 
 export const NavBar: FC<INavBarProps> = (props) => {
     return (
-        <div className="flex justify-between items-center px-6 sm:px-4 container max-w-screen-xl mx-auto h-16 border-b border-slate-200">
+        <div className="flex justify-between items-center px-6 sm:px-4 container max-w-screen-xl mx-auto h-16 border-b border-slate-200 sticky top-0">
             <div>
                 <p className="uppercase font-thin text-gray-500 tracking-wider"><span className="font-black text-emerald-600">T</span>alha</p>
             </div>
