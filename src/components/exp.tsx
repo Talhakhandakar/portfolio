@@ -1,4 +1,5 @@
 "use client"
+
 import { cn } from "@/lib/utils";
 import { Check } from "lucide-react";
 import { FC, useState } from "react";
@@ -29,7 +30,33 @@ export const Exp: FC<IExpProps> = (props) => {
 const Apple = ()=>{
     return (
         <div>
-            <p>Engineer @ Apple</p>
+        <p>Engineer @ Apple</p>
+        <p className="text-gray-500 text-sm  ">2022 - Present</p>
+  
+        <div className="flex items-start gap-2 mt-5">
+          <Check className="text-green-500 w-4 h-4 mt-1" />
+          <p>
+            Many scholarly debates on the nature of experience focus on experience as a conscious event,
+            either in the wide or the more restricted sense.
+          </p>
         </div>
-    )
+  
+        <div className="flex items-start gap-2">
+          <Check className="text-green-500 w-4 h-4 mt-1" />
+          <p>
+            Many scholarly debates on the nature of experience focus on experience as a conscious event,
+            either in the wide or the.
+          </p>
+        </div>
+  
+        <div className="flex items-start gap-2">
+          <Check className="text-green-500 w-4 h-4 mt-2" />
+          <p>
+            Many scholarly debates on the nature of experience focus on experience as a conscious event.
+          </p>
+        </div>
+      </div>
+    );
+  
+    
 }
